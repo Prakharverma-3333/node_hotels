@@ -1,9 +1,16 @@
 {
+  "name": "node_hotels",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Server.js"
+  },
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "lodash": "^4.17.21",
     "mongoose": "^8.19.2",
+    "package.json": "^2.0.1",
     "prompt-sync": "^4.2.0"
   }
 }
