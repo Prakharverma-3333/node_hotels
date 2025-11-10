@@ -2,10 +2,10 @@
 const express = require('express')
 const app = express()//Naksha
 const db = require('./db');
-
+require('dotenv').config();
 // const bodyParser = require('body-parser');
 app.use(express.json());//req.body
-
+const PORT = process.env.PORT || 3000;
 
 
 //Post route to add a person
